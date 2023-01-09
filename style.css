@@ -1,0 +1,261 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+     ;
+}
+
+
+
+/* Banner Section style*/
+.banner {
+     position: relative;
+     width: 100%;
+     margin: 0 auto;
+}
+
+.banner img {
+     width: 100%;
+}
+
+.baneer-title {
+     position: absolute;
+     top: 400px;
+     left: 600px;
+     font-size: 55px;
+     font-weight: 600px;
+     font-weight: bold;
+     color: #ffffff;
+     right: 320px;
+     text-align: right;
+}
+
+.baneer-description {
+     position: absolute;
+     top: 545px;
+     left: 600px;
+     font-size: 30;
+     font-weight: 300px;
+     color: #ffffff;
+     right: 320px;
+     text-align: right;
+}
+
+.btn-header {
+     position: absolute;
+     top: 620px;
+     right: 330px;
+     border-radius: 5px;
+     width: 150px;
+     height: 65px;
+}
+
+main {
+     mix-width: 90%;
+     margin: 0 auto;
+}
+
+
+
+/* Features Section style*/
+.features {
+     margin-top: 50px;
+}
+
+.features-image img {
+     margin-left: 200px;
+}
+
+.features-image {
+     display: flex;
+     margin: 0 auto;
+}
+
+.features-right-side {
+     margin-left: 150px;
+     margin-top: 400px;
+}
+
+.reatures-title {
+     font-size: 50px;
+     font-weight: 600;
+     color: #00008B;
+}
+
+.features-description{
+     font-size: 25px;
+     font-weight: bold;
+}
+
+
+
+/* News Section style*/
+.news-counter {
+     display: flex;
+     gap: 20px;
+}
+
+.news-title {
+     font-size: 50px;
+     font-weight: 700;
+     margin-top: 40px;
+     text-align: center;
+     margin-bottom: 30px;
+     color: #00008B;
+}
+
+.box-title {
+     font-size: 100px;
+     font-weight: 700;
+     font-weight: bold;
+     text-align: center;
+     color: #033E3E;
+}
+
+.news-box {
+     border-radius: 10px;
+     border: px solid rgb(89, 88, 88);
+     padding: 60px 100px;
+     text-align: center;
+     background-color: #FFFFC2;
+     margin: 0 auto;
+     margin-bottom: 50px;
+     
+}
+
+
+/*Plans Section style*/
+.plan-tilte {
+     margin-top: 100px;
+     color: #00008B;
+     font-size: 50px;
+     font-weight: 700;
+     text-align: center;
+     margin-bottom: 25px;
+}
+
+.plan-description {
+     font-size: 30px;
+     font-weight: 400;
+     font-weight: bold;
+     text-align: center;
+     color: #4863A0;
+     margin-bottom: 25px;
+}
+
+
+.plan-image-area {
+     display: flex;
+     gap: 25px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.plan-image-area img {
+     width: 400px;
+     height: 600px;
+     margin: 0 auto;
+}
+
+.plan-icons{
+     display: flex;
+     gap: 25px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.plan-icons img{
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+     margin-bottom: 25px;
+}
+
+
+
+/* pic section style*/
+.quran-row {
+     position: relative;
+     
+}
+
+.quran-continer img {
+     margin-top: 50px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 10px;
+}
+
+
+.quran-button-area {
+     position: absolute;
+     top: 100px;
+     left: 350px;
+     background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.quran-title {
+     font-size: 30px;
+     font-weight: bold;
+     color: #ffffff;
+}
+
+.btn-quran {
+     margin-top: 10px;
+     padding: 15px 20px;
+     border-radius: 5px;
+     border: none;
+     font-weight: bold;
+     color: #513B1C;
+}
+
+
+
+/* footer style*/
+
+.contact {
+     margin-top: 100px;
+     display: flex;
+     gap: 330px;
+     padding: 230px 200px;
+     width: 100%;
+     height: 577px;
+     background-color: #151414;
+}
+
+.contact .footer-title {
+     margin-bottom: 20px;
+     text-align: left;
+     font-size: 40px;
+     font-weight: 600;
+     color: #FFFFFF;
+}
+.footer-description{
+     color: #FFFFFF;  
+}
+
+.footer-logo{
+     margin-top: 20px;
+padding: 0 8px;
+}
+.footer-input {
+     width: 325px;
+     height: 64px;
+     border: 1px solid #FFFFFF;
+     background-color: #151414;
+     border-radius: 8px;
+     margin-bottom: 20px;
+     padding: 0 10px;
+}
+
+.footer-button {
+     width: 170px;
+     height: 64px;
+     border-radius: 5px;
+     background-color: #005FAC;
+     color: #FFFFFF;
+     border: none;
+     font-size: large;
+}
